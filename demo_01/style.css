@@ -1,0 +1,84 @@
+*,html,body,div,li,ul,p,a,span{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+.content{
+	overflow: hidden;
+	width: 100%;
+	height: 500px;
+	margin-top: 20px;
+}
+.frame-list{
+	float: left;
+	width: 200px;
+	height: 100%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.frame-list li{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.frame-list li img{
+	width: 100%;
+	height: 100%;
+}
+.frame-list li.active{
+	box-shadow: 0 0 8px #f00;
+}
+
+.img-list{
+	float: left;
+	width: 200px;
+	height: 100%;
+	padding-right: 15px;
+	border-right: 1px dotted #aaa;
+}
+.img-list li{
+	margin-bottom: 10px;
+}
+.img-list li img{
+	width: 100%;
+	height: 100%;
+}
+.img-list li.active{
+	box-shadow: 0 0 8px #f00;
+}
+
+#canvas{
+	border: 2px solid #ddd;
+	margin-left: 27px;
+	margin-top: 27px;
+}
+
+.btn{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	background: #ddd;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 50px;
+}
+
+.show-stage{
+	float: left;
+	position: relative;
+	margin-left: 20px;
+}
+.show-stage .frame{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 257px;
+}
